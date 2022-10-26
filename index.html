@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bootstrap 5 Boilerplate</title>
+        <!-- Bootstrap Main Css -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" />
+        <!-- Custom Css -->
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            /* Default Css */
+img{
+    max-width: 100%;
+}
+.primary{
+    color: #8490ff;
+}
+.bgc-primary{
+    background: #8490ff;
+}
+.bgc-grey{
+    background-color: #f9f9ff;
+}
+.btn-outline-c{
+    border: 1px solid currentColor;
+    color:#657be0;
+    transition: 0.3s;
+}
+.btn-outline-c:hover{
+    background: #657be0 !important;
+    color: white !important;
+}
+
+/* Pricing Section */
+
+.pricing-top span {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #80808021;
+}
+.price-table.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.05)!important;
+}
+
+/* Team  Section */
+section.team-section {
+    padding-top: 120px !important;
+}
+.team img {
+    margin-top: -130px;
+    margin-left: -100px;
+    width: 110px;
+}
+        </style>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header class="bg-white">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://i.ibb.co/KyP6JHW/logo.jpg" alt="" style="width: 110px;" />
+                    </a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+                        <ul class="navbar-nav ">
+                            <li><a class="nav-link active" href="#">Home</a></li>
+                            <li><a class="nav-link" href="#">About us</a></li>
+                            <li><a class="nav-link" href="#">Services</a></li>
+                            <li class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">Blog1</a></li>
+                                    <li><a href="#" class="dropdown-item">Blog1</a></li>
+                                    <li><a href="#" class="dropdown-item">Blog1</a></li>
+                                    <li><a href="#" class="dropdown-item">Blog1</a></li>
+                                    <li><a href="#" class="dropdown-item">Blog1</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="nav-link" href="#">Portfolio</a></li>
+                            <li class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">pages</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">Pages 1</a></li>
+                                    <li><a href="#" class="dropdown-item">Pages 1</a></li>
+                                    <li><a href="#" class="dropdown-item">Pages 1</a></li>
+                                    <li><a href="#" class="dropdown-item">Pages 1</a></li>
+                                    <li><a href="#" class="dropdown-item">Pages 1</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="nav-link" href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!--Hero Section-->
+            <section class="hero-section bgc-grey">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 py-sm-5 d-flex align-items-center">
+                            <div class="hero-text">
+                                <h5 class="fw-normal">This is me</h5>
+                                <h1 class="fw-normal">Philip Gilbert</h1>
+                                <p>
+                                   You will begin to realise why this exercise is called the Dickens Pattern with
+                                    reference to the ghost showing Scrooge some different futures
+                                </p>
+                                <a href="#" class="btn bgc-primary btn-primary text-white">Discover Now</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 text-sm-center align-self-sm-center ">
+                            <img src="https://i.ibb.co/XFhJ5FR/hero-img.webp" alt="" class="w-75"  />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Me Section -->
+            <section class="about-section py-5">
+                <div class="container">
+                    <div class="row gx-5">
+                        <div class="col-md-6">
+                            <img src="https://i.ibb.co/PcXW8JR/about-img.webp" alt="" class="border" />
+                        </div>
+                        <div class="align-items-center col-md-6 d-flex pt-sm-5">
+                            <div class="hero-text">
+                                <h5 class="fw-normal">About Me</h5>
+                                <h1 class="fw-normal">Personal Details</h1>
+                                <p>
+                                    Here, I focus on a range of items and features that we use in life without giving
+                                    them a second thought. such as Coca Cola Dolor sit amet, consectetur adipisicing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaUt enim ad
+                                    minim veniam, quis nostrud exercitation ullamco.
+                                </p>
+                                <a href="#" class="btn bgc-primary  btn-primary text-white">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Counter Section -->
+            <section class="counter-section bgc-primary text-white py-5 text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-3">
+                            <h3 class="fw-bold">100+</h3>
+                            <p class="m-0">Happy Clients</p>
+                        </div>
+                        <div class="col-md-3 col-3">
+                            <h3 class="fw-bold">50+</h3>
+                            <p class="m-0">Health Programs</p>
+                        </div>
+                        <div class="col-md-3 col-3">
+                            <h3 class="fw-bold">300+</h3>
+                            <p class="m-0">Projects Completed</p>
+                        </div>
+                        <div class="col-md-3 col-3">
+                            <h3 class="fw-bold">80+</h3>
+                            <p class="m-0">Health Programs</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Pricing Section  -->
+
+            <section class="pricing-section text-center py-5 bgc-grey">
+                <div class="container">
+                    <h2 class="fw-normal mb-3">Start using our app today</h2>
+                    <h5 class="fw-normal">
+                        Being active is important to our health, but how much or what kind of activity do you need?
+                    </h5>
+
+                    <div class="row mt-5 gx-3">
+                        <div class="col-md-4 col-sm-6 col-6 mb-sm-3 mb-3">
+                            <div class="price-table shadow py-3 bg-white ">
+                                <div class="pricing-top mb-4">
+                                    <span class="d-inline-block mx-auto rounded-circle bgc-grey mb-4">1</span>
+                                    <h5 class="fw-normal">Economy</h5>
+                                    <h6 class="fw-normal">For the individuals</h6>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li class="text-muted h5 fw-normal my-5">Secure Online Transfer</li>
+                                    <li class="text-muted h5 fw-normal my-5">Unlimited Styles for interface</li>
+                                    <li class="text-muted h5 fw-normal my-5">Reliable Customer Service</li>
+                                    <a href="#" class="btn btn-lg btn-outline-c shadow ">Buy Now</a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-6">
+                            <div class="price-table shadow py-3 bg-white ">
+                                <div class="pricing-top mb-4 ">
+                                    <span class="d-inline-block mx-auto rounded-circle bgc-grey mb-4">1</span>
+                                    <h5 class="fw-normal">Economy</h5>
+                                    <h6 class="fw-normal">For the individuals</h6>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li class="text-muted h5 fw-normal my-5">Secure Online Transfer</li>
+                                    <li class="text-muted h5 fw-normal my-5">Unlimited Styles for interface</li>
+                                    <li class="text-muted h5 fw-normal my-5">Reliable Customer Service</li>
+                                    <a href="#" class="btn btn-lg btn-outline-c shadow">Buy Now</a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-6">
+                            <div class="price-table shadow py-3 bg-white ">
+                                <div class="pricing-top mb-4">
+                                    <span class="d-inline-block mx-auto rounded-circle bgc-grey mb-4">1</span>
+                                    <h5 class="fw-normal">Economy</h5>
+                                    <h6 class="fw-normal">For the individuals</h6>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li class="text-muted h5 fw-normal my-5">Secure Online Transfer</li>
+                                    <li class="text-muted h5 fw-normal my-5">Unlimited Styles for interface</li>
+                                    <li class="text-muted h5 fw-normal my-5">Reliable Customer Service</li>
+                                    <a href="#" class="btn btn-lg btn-outline-c shadow">Buy Now</a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Section -->
+               <section class="team-section text-center bg-white py-5">
+                <div class="container">
+                    <div class="row mt-5 gx-4"  >
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team shadow py-4 ">
+                            <img src="https://i.ibb.co/3SsnDs2/face1.jpg" alt="" class="">
+                            <h5 class="fw-semibold">Jason Doe</h5>
+                            <h6 class="fw-semibold">Programmer</h6>
+                            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <a href="#" class="btn bg-white shadow">Website</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team shadow py-4 ">
+                            <img src="https://i.ibb.co/3SsnDs2/face1.jpg" alt="" class="">
+                            <h5 class="fw-semibold">Jason Doe</h5>
+                            <h6 class="fw-semibold">Programmer</h6>
+                            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <a href="#" class="btn bg-white shadow">Website</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team shadow py-4 ">
+                            <img src="https://i.ibb.co/3SsnDs2/face1.jpg" alt="" class="">
+                            <h5 class="fw-semibold">Jason Doe</h5>
+                            <h6 class="fw-semibold">Programmer</h6>
+                            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <a href="#" class="btn bg-white shadow">Website</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team shadow py-4 ">
+                            <img src="https://i.ibb.co/3SsnDs2/face1.jpg" alt="" class="">
+                            <h5 class="fw-semibold">Jason Doe</h5>
+                            <h6 class="fw-semibold">Programmer</h6>
+                            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <a href="#" class="btn bg-white shadow">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </section>
+
+               <!-- Contact Section -->
+               <section class="contact-section bgc-grey py-4">
+                <div class="container">
+                    <div class="contact-top text-center py-4">
+                        <h5 class="fw-normal mb-3">We need to know your opinion </h5>
+                        <h2 class="fw-normal">Write to us and we will contact you</h2>
+                    </div>
+
+                    <div class="row gx-5">
+                        <div class="col-md-6">
+                            <div class="card bg-white text-center pb-3 shadow px-4 border-0">
+                                <div class="card-body">
+                                    <h5 class="fw-normal mb-3 py-4">Send us a Message</h5>
+                                    <form action="#">
+                                        <input type="email" placeholder="E-mail address" class="form-control mb-3">
+                                       
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <input type="text" placeholder="Name" class="form-control mb-3" >
+                                            </div>
+                                            <div class="col-md-6"> 
+                                        <input type="text" class="form-control mb-3" placeholder="Your Phone">
+                                    </div>
+                                        </div>
+                                        <textarea name="messages" placeholder="Message" id=""rows="10" class="form-control w-100 mb-3"></textarea>
+                                        <div class="btn-div">
+                                            <a href="#" class="btn btn-info text-white fs-5">Contact Me</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 py-5">
+                            <h4 class="fw-normal my-3">Get in touch</h4>
+                            <h5 class="fw-normal my-3">Phone number: +000 000 000 00</h5>
+                            <h5 class="fw-normal my-3">Email: +000 000 000 00</h5>
+                            <h5 class="fw-normal my-3">Address: Dinajpur</h5>
+                        </div>
+                    </div>
+                </div>
+               </section>
+        </main>
+
+        <footer class="py-4 bg-dark text-white text-center">
+            <p class="m-0">Copyright &copy; 2021 Designed by LFWF. All rights reserved</p>
+        </footer>
+        <!-- This is For  Dynamic Work-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
